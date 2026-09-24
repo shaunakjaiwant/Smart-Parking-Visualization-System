@@ -1,0 +1,119 @@
+{
+  "facility": {
+    "name": "Central Plaza Smart Parking Facility",
+    "version": "1.0",
+    "dimensions": {
+      "width": 110.0,
+      "length": 80.0
+    },
+    "entrance": {
+      "id": "node_entrance",
+      "position": [-50.0, 0.0, 0.0],
+      "name": "Main Entrance Gate"
+    },
+    "exit": {
+      "id": "node_exit",
+      "position": [50.0, 0.0, 0.0],
+      "name": "Main Exit Gate"
+    }
+  },
+  "rows": [
+    {
+      "id": "A",
+      "name": "Row A (North Accessible & EV)",
+      "direction": [1.0, 0.0, 0.0],
+      "slots": [
+        {"id": "A-01", "type": "ACCESSIBLE", "position": [-36.0, 0.0, 24.0], "size": [3.2, 5.8]},
+        {"id": "A-02", "type": "ACCESSIBLE", "position": [-32.0, 0.0, 24.0], "size": [3.2, 5.8]},
+        {"id": "A-03", "type": "ACCESSIBLE", "position": [-28.0, 0.0, 24.0], "size": [3.2, 5.8]},
+        {"id": "A-04", "type": "ACCESSIBLE", "position": [-24.0, 0.0, 24.0], "size": [3.2, 5.8]},
+        {"id": "A-05", "type": "EV_CHARGING", "position": [-18.0, 0.0, 24.0], "size": [2.8, 5.5]},
+        {"id": "A-06", "type": "EV_CHARGING", "position": [-14.5, 0.0, 24.0], "size": [2.8, 5.5]},
+        {"id": "A-07", "type": "EV_CHARGING", "position": [-11.0, 0.0, 24.0], "size": [2.8, 5.5]},
+        {"id": "A-08", "type": "EV_CHARGING", "position": [-7.5, 0.0, 24.0], "size": [2.8, 5.5]},
+        {"id": "A-09", "type": "REGULAR", "position": [-1.0, 0.0, 24.0], "size": [2.6, 5.2]},
+        {"id": "A-10", "type": "REGULAR", "position": [2.5, 0.0, 24.0], "size": [2.6, 5.2]},
+        {"id": "A-11", "type": "REGULAR", "position": [6.0, 0.0, 24.0], "size": [2.6, 5.2]},
+        {"id": "A-12", "type": "REGULAR", "position": [9.5, 0.0, 24.0], "size": [2.6, 5.2]},
+        {"id": "A-13", "type": "REGULAR", "position": [16.0, 0.0, 24.0], "size": [2.6, 5.2]},
+        {"id": "A-14", "type": "REGULAR", "position": [19.5, 0.0, 24.0], "size": [2.6, 5.2]},
+        {"id": "A-15", "type": "REGULAR", "position": [23.0, 0.0, 24.0], "size": [2.6, 5.2]}
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Row B (North-Central Reserved & Regular)",
+      "direction": [1.0, 0.0, 0.0],
+      "slots": [
+        {"id": "B-01", "type": "RESERVED", "position": [-35.0, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-02", "type": "RESERVED", "position": [-31.5, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-03", "type": "RESERVED", "position": [-28.0, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-04", "type": "RESERVED", "position": [-24.5, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-05", "type": "REGULAR", "position": [-18.0, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-06", "type": "REGULAR", "position": [-14.5, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-07", "type": "REGULAR", "position": [-11.0, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-08", "type": "REGULAR", "position": [-7.5, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-09", "type": "REGULAR", "position": [-1.0, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-10", "type": "REGULAR", "position": [2.5, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-11", "type": "REGULAR", "position": [6.0, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-12", "type": "REGULAR", "position": [9.5, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-13", "type": "REGULAR", "position": [16.0, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-14", "type": "REGULAR", "position": [19.5, 0.0, 10.0], "size": [2.6, 5.2]},
+        {"id": "B-15", "type": "REGULAR", "position": [23.0, 0.0, 10.0], "size": [2.6, 5.2]}
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Row C (South-Central Regular)",
+      "direction": [1.0, 0.0, 0.0],
+      "slots": [
+        {"id": "C-01", "type": "REGULAR", "position": [-35.0, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-02", "type": "REGULAR", "position": [-31.5, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-03", "type": "REGULAR", "position": [-28.0, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-04", "type": "REGULAR", "position": [-24.5, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-05", "type": "REGULAR", "position": [-18.0, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-06", "type": "REGULAR", "position": [-14.5, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-07", "type": "REGULAR", "position": [-11.0, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-08", "type": "REGULAR", "position": [-7.5, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-09", "type": "REGULAR", "position": [-1.0, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-10", "type": "REGULAR", "position": [2.5, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-11", "type": "REGULAR", "position": [6.0, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-12", "type": "REGULAR", "position": [9.5, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-13", "type": "REGULAR", "position": [16.0, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-14", "type": "REGULAR", "position": [19.5, 0.0, -10.0], "size": [2.6, 5.2]},
+        {"id": "C-15", "type": "REGULAR", "position": [23.0, 0.0, -10.0], "size": [2.6, 5.2]}
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Row D (South EV & Regular)",
+      "direction": [1.0, 0.0, 0.0],
+      "slots": [
+        {"id": "D-01", "type": "EV_CHARGING", "position": [-35.0, 0.0, -24.0], "size": [2.8, 5.5]},
+        {"id": "D-02", "type": "EV_CHARGING", "position": [-31.5, 0.0, -24.0], "size": [2.8, 5.5]},
+        {"id": "D-03", "type": "REGULAR", "position": [-28.0, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-04", "type": "REGULAR", "position": [-24.5, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-05", "type": "REGULAR", "position": [-18.0, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-06", "type": "REGULAR", "position": [-14.5, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-07", "type": "REGULAR", "position": [-11.0, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-08", "type": "REGULAR", "position": [-7.5, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-09", "type": "REGULAR", "position": [-1.0, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-10", "type": "REGULAR", "position": [2.5, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-11", "type": "REGULAR", "position": [6.0, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-12", "type": "REGULAR", "position": [9.5, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-13", "type": "REGULAR", "position": [16.0, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-14", "type": "REGULAR", "position": [19.5, 0.0, -24.0], "size": [2.6, 5.2]},
+        {"id": "D-15", "type": "REGULAR", "position": [23.0, 0.0, -24.0], "size": [2.6, 5.2]}
+      ]
+    }
+  ],
+  "roads": [
+    {"id": "road_main_in", "from": [-50.0, 0.0, 0.0], "to": [-42.0, 0.0, 0.0], "width": 7.0},
+    {"id": "road_west_spine", "from": [-42.0, 0.0, -28.0], "to": [-42.0, 0.0, 28.0], "width": 6.5},
+    {"id": "road_aisle_north", "from": [-42.0, 0.0, 17.0], "to": [34.0, 0.0, 17.0], "width": 6.0},
+    {"id": "road_central_cross", "from": [-42.0, 0.0, 0.0], "to": [34.0, 0.0, 0.0], "width": 6.0},
+    {"id": "road_aisle_south", "from": [-42.0, 0.0, -17.0], "to": [34.0, 0.0, -17.0], "width": 6.0},
+    {"id": "road_east_spine", "from": [34.0, 0.0, -28.0], "to": [34.0, 0.0, 28.0], "width": 6.5},
+    {"id": "road_main_out", "from": [34.0, 0.0, 0.0], "to": [50.0, 0.0, 0.0], "width": 7.0}
+  ]
+}

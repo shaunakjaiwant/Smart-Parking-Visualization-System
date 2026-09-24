@@ -1,0 +1,39 @@
+# Build output & artifacts
+build/
+bin/
+out/
+Release/
+Debug/
+x64/
+x86/
+
+# Compiled Binaries & Libraries
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+
+# Visual Studio & IDE metadata
+.vs/
+*.sln
+*.vcxproj*
+*.user
+*.suo
+*.idb
+*.tlog
+
+# Runtime state & logs
+imgui.ini
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
